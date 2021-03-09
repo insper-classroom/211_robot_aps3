@@ -46,9 +46,18 @@ def desenhar_linha_entre_pontos(img, X, Y, color):
 
 def regressao_por_centro(img, x,y):
     """Não mude ou renomeie esta função
+        deve receber uma lista de coordenadas XY, e estimar a melhor reta, utilizando o metodo preferir, que passa pelos centros. Retorne a imagem com a reta e os parametros da reta
+        
+        Dica: cv2.line(img,ponto1,ponto2,color,2) desenha uma linha que passe entre os pontos, mesmo que ponto1 e ponto2 não pertençam a imagem.
+    """
+
+    return img, None
+
+def calcular_angulo_com_vertical(img, lm):
+    """Não mude ou renomeie esta função
         deve receber uma lista de coordenadas XY, e estimar a melhor reta, utilizando o metodo preferir, que passa pelos centros. Retorne a imagem com a reta.
         
         Dica: cv2.line(img,ponto1,ponto2,color,2) desenha uma linha que passe entre os pontos, mesmo que ponto1 e ponto2 não pertençam a imagem.
     """
 
-    return img
+    return None
